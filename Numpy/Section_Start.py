@@ -29,7 +29,7 @@ print([[range(i, i + 3)] for i in [2,4,6]])
 # Non numpy type 2D list wiht list comprehension in a list comprehension 
 print([[i for i in range(i, i + 3)] for i in [2,4,6]])
 np.arange(0,20,2)
-
+print('hey')
 # Create an array of five values evenly spaced between 0 and 1
 np.linspace(0, 1, 5)
 
